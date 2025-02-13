@@ -39,12 +39,9 @@ public class Library {
     }
 
     public void displayLibraryBooks() {
+        System.out.println("Books's in Library: ");
         for (Book data : libraryBooks) {
-            System.out.println("Title: " + data.getTitle());
-            System.out.println("ISBN: " + data.getisbn());
-            System.out.println("Author: " + data.getAuthor().getName());
-            System.out.println("Biography: " + data.getAuthor().getBio());
-            System.out.println("------------------------");
+            data.printBook();
         }
     }
 }

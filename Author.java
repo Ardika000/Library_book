@@ -10,15 +10,7 @@ public class Author {
         return name;
     }
 
-    public void setName(String name){
-        this.name = name;
-    }
-
     public String getBio(){
         return biography;
     }
-
-    public void setBio(String bio){
-        this.biography = bio;
-    }    
 }

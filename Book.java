@@ -22,13 +22,12 @@ public class Book {
         return author;
     }
 
-    public void setTitle(String title){
-        this.title = title;
+    public void printBook(){
+        System.out.println("Title: " + title);
+        System.out.println("ISBN: " + isbn);
+        System.out.println("Author: " + author.getName());
+        System.out.println("Biography: " +author.getBio());
+        System.out.println("------------------------");
     }
-    public void setIsbn(String isbn){
-        this.isbn = isbn;
-    }
-    public void setAuthor(Author author){
-        this.author = author;
-    }
+
 }
